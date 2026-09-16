@@ -5,10 +5,9 @@ A backend application for a job portal built using Node.js, Express.js and Mongo
 ## Features
 
 - User registration and login
-- JWT authentication
-- Role-based access for job seekers, employers and admins
 - User profile management
-- Job creation and management
+- Role-based access for job seekers, employers and admins
+- Job creation, updating and deletion
 - Job applications
 - Application status management
 - Admin user and job management
@@ -21,32 +20,19 @@ A backend application for a job portal built using Node.js, Express.js and Mongo
 - Mongoose
 - JWT
 - bcryptjs
-- cookie-parser
-- dotenv
+- Cookies
+- Postman
 
-## API Routes
+## Main Collections
 
-### User API
+The application uses three main collections:
 
-`/user-api`
+1. Users
+2. Jobs
+3. Applications
 
-### Job API
+## User Roles
 
-`/job-api`
-
-### Application API
-
-`/application-api`
-
-### Admin API
-
-`/admin-api`
-
-## Setup
-
-### 1. Install dependencies
-
-Run:
-
-```bash
-npm install
+- Job Seeker
+- Employer
+- Admin
